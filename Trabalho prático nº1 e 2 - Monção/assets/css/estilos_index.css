@@ -1,0 +1,17 @@
+.masthead{
+    background-image: url("/assets/img/moncao_vista-aerea.jpg");
+    background-size: cover !important;
+}
+#brasao{
+    padding-top: 2.5cm;
+    height: auto;
+    width: 50%;
+}
+.intro-text{
+    padding-top: 2rem;
+    color: white;
+    font-size: 3vmin !important;
+}
+.scroll{
+    bottom: -20px !important;
+}
