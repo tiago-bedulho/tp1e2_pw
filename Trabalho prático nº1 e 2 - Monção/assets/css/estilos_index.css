@@ -2,16 +2,21 @@ body{
     background-color: #f2f2f2;
 }
 .masthead{
-    background-image: url("/assets/img/moncao_vista-aerea.jpg");
+    background-image: url(/assets/img/moncao_vista-aerea.jpg);
     background-size: cover !important;
-    min-height: 60vh;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    max-width: 100%;
     text-shadow: 3px 3px 3px rgba(0,0,0,.2);
 }
 #brasao{
     padding-top: 2.5cm;
     height: auto;
-    width: 50%;
+    max-width: 100%;
 }
 .intro-text{
     padding-top: 2rem;
@@ -23,10 +28,16 @@ body{
     bottom: -20px !important;
 }
 #lenda{
-    background-size: cover !important;
     background-image: url(/assets/img/deu-la-deu_martins.jpg);
-    min-height: 60vh;
-    position: relative !important;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    max-width: 100%;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.2);
 }
 #lenda p{
     color: white;
@@ -44,12 +55,40 @@ h1{
     font-size: 5vmin;
     color: black
 }
-#patrimonio{
-    background-size: cover !important;
-    background-image: url(/assets/img/deu-la-deu_martins.jpg);
-    min-height: 60vh;
-    position: relative !important;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+#cascata{
+    text-align: center;
+    text-justify: auto;
+    max-width: 100%;
+}
+#img-cascata{
+    max-width: 100%;
+    height: auto;
+}
+#fortaleza{
+    text-align: center;
+    text-justify: auto;
+    max-width: 100%;
+    height: auto;
+}
+#img-fortaleza{
+    max-width: 100%;
+    height: auto;
+}
+#header-fortaleza{
+    padding-top: 2.5vh;
+}
+#palacio{
+    text-align: center;
+    text-justify: auto;
+    max-width: 100%;
+    height: auto;
+}
+#img-palacio{
+    max-width: 100%;
+    height: auto;
+}
+#header-palacio{
+    padding-top: 2.5vh;
 }
 @media (max-width: 768px){
     .masthead{
